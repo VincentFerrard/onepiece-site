@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+   <head>
+       <title> OnePiece </title>
+	   <meta charset="UTF-8"/>
+	   <link href="css/style.css" rel="stylesheet" type="text/css"/>
+	   <link rel="icon"  type="image/png" href="Img/one_piece.png" />
+	   <script type="text/javascript"  src="js/jquery-1.11.3.min.js" > </script>
+	   <script type="text/javascript"  src="js/script.js" > </script>
+   </head>
+   <body>
+      <div id="title">
+	      One Piece
+	  </div>
+	  
+	  <div id="subtitle">
+	     <b><u>Login</u></b>
+	  </div>
+	  
+	  <div style="margin-bottom:25px;"></div>
+	  
+	  <div>
+	    <table>
+		  <tbody>
+		   <!--Premiere ligne-->
+		   <tr>
+		   <!--Premiere colonne-->
+		   <td>Pseudo</td>
+		   <!--Seconde colonne-->
+		   <td> <input id="name" type="text" placeholder="Pseudo" name="prenom" /></td>
+		 </tr>
+		 <!--Seconde ligne-->
+		 <tr>
+		   <td>Mot de passe</td>
+		   <td> <input id="password" type="password" placeholder="Mot de passe" name="password" /></td>
+		 </tr>
+		 <!--Troisieme ligne-->
+		 <tr>
+		   <td>Email</td>
+		   <td> <input id="email" type="email" placeholder="Email" name="email"/></td>
+		 </tr>
+		 <!--Quatrieme ligne-->	
+		 <tr>
+		 <form action="register.html">
+		   <td> <input id="jqButton" style="margin-left:0px" type="submit" value="Clique ici pour t'inscire" /> </td>
+		 </form>
+		 
+		 <form action="menu.html">
+		   <td> <input style="margin-left:100px" type="submit" value="Login" onclick="login()" /> </td>
+		 </form>
+		 </tr>
+	   </tbody>
+	  </table>
+	</div>
+	
+   </body>
+</html>
