@@ -13,10 +13,7 @@
   catch(\Exception $e){
 	   die('Connection perdu ! Veuillez réessayer.');
 	}
-	    $reponse = "INSERT INTO `u116017242_site`.`membres` "
-		+ "(`id`, `nom`, `prenom`, `date de naissance`, `pseudo`, `password`, `email`)"
-		+ " VALUES (NULL,'".$_POST['nom']."','".$_POST['firstName']."', "
-		+ "'".$_POST['Jour'].$_POST['Mois'].$_POST['Annee']."','".$_POST['pseudo']."','".$_POST['password2']."','".$_POST['email2']."');";
+	    $reponse = "INSERT INTO `u116017242_site`.`membres` (`id`, `nom`, `prenom`, `date de naissance`, `pseudo`, `password`, `email`) VALUES (NULL,'".$_POST['nom']."','".$_POST['firstName']."', '".$_POST['Jour'].$_POST['Mois'].$_POST['Annee']."','".$_POST['pseudo']."','".$_POST['password2']."','".$_POST['email2']."');";
 		
 	    $insertion = $u116017242_vinc->query($reponse);
 		

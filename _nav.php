@@ -41,8 +41,8 @@
 	 <li class="dropdown-header">Commentaires</li>
 	  <li><a href="commentaire.php">Vos avis</a></li>
 	 <li class="divider"></li>
-	 <li class="dropdown-header">Les Tests</li>
-	  <li><a href="image.php">Images</a></li>
+	 <li class="dropdown-header">Mes jeux</li>
+	  <li><a href="jeu.php">Les cartes</a></li>
     </ul>
   </div>
   

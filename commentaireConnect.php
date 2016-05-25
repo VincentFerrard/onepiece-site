@@ -100,7 +100,7 @@ mail("siteonepiece69@gmail.com", "Les avis du site", $message, $note);
 		   </tr>
 		   <!--Troisième ligne-->	
 		   <tr>
-		   <td> <input style="margin-top:8px;margin-bottom:8px;margin-left:36%;color:black" type="submit" value="Envoyer" onclick="self.location.href='interactionCom.php'" /> </td>
+		   <td> <input style="margin-top:8px;margin-bottom:8px;margin-left:40%;color:black" type="submit" value="Envoyer" onclick="self.location.href='interactionCom.php'" /> </td>
 		   </tr>
 	   </tbody>
 	  </table>

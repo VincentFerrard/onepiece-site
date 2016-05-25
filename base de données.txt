@@ -1,0 +1,7 @@
+id init(11) NULL
+nom varchar(255)
+prenom varchar(255)
+date de naissance varchar(50)
+pseudo varchar(250)
+password varchar(255)
+email varchar(255)

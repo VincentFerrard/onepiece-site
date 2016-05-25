@@ -50,6 +50,13 @@
       </div>
 	  
 	 <div style="margin-bottom:10%;"></div>
+	 
+	 <div style="margin-bottom:4%">
+	 <input id="height" type="text" placeholder="height" name="height"/>
+	 <input id="width" type="text" placeholder="width" />
+	 <input type="button" value="Go!" onclick="" />
+	 </div>
+	 <div id="carte" style="background-color:blue;height:50px;width:50px;"> </div>
 	
 	 <?php include('_footer.php'); ?>
 </body>

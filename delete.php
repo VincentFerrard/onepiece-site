@@ -28,7 +28,7 @@
 	  
 	  <div style="margin-bottom:25px;"></div>
 	  
-	  <?php include('_nav.php'); ?>
+	  <?php include('_navConnect.php'); ?>
 	  
 	  <div style="margin-bottom:50px;margin-top:10%;"></div>
 	  

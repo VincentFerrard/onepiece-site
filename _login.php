@@ -23,7 +23,7 @@
 		   <td> <input style="margin-top:8px;margin-bottom:8px;margin-left:150px;color:black" type="submit" value="Login" onclick="login()" /> </td>
 		 </tr>
 		 <tr>
-		 <td> <a style="color:red;" href="mdpOublie.php">Mot de passe oublié ?</a> </td>
+		 <td> <a style="color:red;margin-left:2%;" href="mdpOublie.php">Mot de passe oublié ?</a> </td>
 		 </tr>
 	   </tbody>
 	  </table>
